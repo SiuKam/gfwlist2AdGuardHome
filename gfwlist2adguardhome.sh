@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Desc: convert gfwlist.txt into dnsmasq.conf
 # Dependency: base64, curl(https support), perl5 v5.10.0+
