@@ -1,6 +1,8 @@
 # gfwlist2AdGuardHome
 转换gfwlist到AdGuardHome规则文件，并添加Ali DNS与Dnspod DNS（使用DoH）作为默认DNS。
 
+使用Github Action定期更新文件。
+
 脚本修改自[kpivy8/gfwlist2AdGuardHome](https://github.com/kpivy8/gfwlist2AdGuardHome)
 
 
