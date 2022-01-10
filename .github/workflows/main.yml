@@ -25,5 +25,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        working-directory: $GITHUB_WORKSPACE/gfwlist2AdGuardHome
-        run: bash gfwlist2AdGuardHome.sh
+        working-directory: $GITHUB_WORKSPACE
+        run: |
+          chmod +x gfwlist2AdGuardHome.sh
+          bash gfwlist2AdGuardHome.sh
