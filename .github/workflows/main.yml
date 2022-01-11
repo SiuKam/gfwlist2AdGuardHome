@@ -27,6 +27,8 @@ jobs:
       - name: Run a one-line script
         working-directory: $GITHUB_WORKSPACE
         run: |
+          ls
+          ls $GITHUB_WORKSPACE
           chmod +x gfwlist2adguardhome.sh
           bash gfwlist2adguardhome.sh
         shell: bash
