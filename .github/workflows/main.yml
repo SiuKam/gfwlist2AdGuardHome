@@ -25,8 +25,9 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Generate AdGuardHome rules
         run: |
-          chmod +x ../../gfwlist2adguardhome.sh
-          bash ../../gfwlist2adguardhome.sh -s 8.8.4.4
+          chmod +x ../../gfwlist2adguardhome.sh >> log.log
+          bash ../../gfwlist2adguardhome.sh -s 8.8.4.4 >> log.log
+          echo log.log
 
       # Upload adguardhome_gfwlist.txt
       - uses: actions/upload-artifact@v2
