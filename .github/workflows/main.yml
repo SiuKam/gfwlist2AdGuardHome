@@ -42,8 +42,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
           CREATE_DATE: "date +%Y-%m-%d"
         with:
-          tag_name: $CREATE_DATE
-          release_name: $CREATE_DATE
+          tag_name: ${{CREATE_DATE}}
+          release_name: ${{CREATE_DATE}}
           draft: false
           prerelease: false
 
