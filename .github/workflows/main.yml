@@ -25,6 +25,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Generate AdGuardHome rules
         run: |
+          ls >> log.log
           chmod +x ../../gfwlist2adguardhome.sh >> log.log
           bash ../../gfwlist2adguardhome.sh -s 8.8.4.4 >> log.log
           echo log.log
