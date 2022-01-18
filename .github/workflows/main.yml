@@ -26,8 +26,13 @@ jobs:
       - name: Generate AdGuardHome rules
         run: |
           ls >> log.log
-          chmod +x ../../gfwlist2adguardhome.sh >> log.log
-          bash ../../gfwlist2adguardhome.sh -s 8.8.4.4 >> log.log
+          echo --------- >> log.log
+          ls /home/runner/work/gfwlist2AdGuardHome/gfwlist2AdGuardHome >> log.log
+          echo --------- >> log.log
+          ls {GitHub.WorkSpace} >> log.log
+          echo --------- >> log.log
+          # chmod +x ../../gfwlist2adguardhome.sh >> log.log
+          # bash ../../gfwlist2adguardhome.sh -s 8.8.4.4 >> log.log
           echo log.log
 
       # Upload adguardhome_gfwlist.txt
