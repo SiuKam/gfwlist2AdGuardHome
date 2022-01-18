@@ -3,6 +3,8 @@
 
 使用Github Action定期更新文件。
 
+文件地址：https://github.com/SiuKam/gfwlist2AdGuardHome/releases/latest/download/adguardhome_gfwlist.txt
+
 脚本修改自[kpivy8/gfwlist2AdGuardHome](https://github.com/kpivy8/gfwlist2AdGuardHome)
 
 
