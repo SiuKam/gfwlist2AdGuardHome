@@ -29,7 +29,7 @@ jobs:
           echo --------- >> log.log
           ls /home/runner/work/gfwlist2AdGuardHome/gfwlist2AdGuardHome >> log.log
           echo --------- >> log.log
-          ls {GitHub.WorkSpace} >> log.log
+          # ls {GitHub.WorkSpace} >> log.log
           echo --------- >> log.log
           # chmod +x ../../gfwlist2adguardhome.sh >> log.log
           # bash ../../gfwlist2adguardhome.sh -s 8.8.4.4 >> log.log
@@ -38,5 +38,5 @@ jobs:
       # Upload adguardhome_gfwlist.txt
       - uses: actions/upload-artifact@v2
         with:
-          name: adguardhome_gfwlist.txt
-          path: adguardhome_gfwlist.txt
+          name: log.log
+          path: log.log
