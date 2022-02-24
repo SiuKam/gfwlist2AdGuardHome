@@ -26,7 +26,7 @@ jobs:
       - name: Generate AdGuardHome rules
         run: |
           chmod +x gfwlist2adguardhome.sh >> log.log
-          bash gfwlist2adguardhome.sh -s 8.8.4.4 >> log.log
+          bash gfwlist2adguardhome.sh -s 192.168.0.1 >> log.log
 
       # Upload adguardhome_gfwlist.txt
       - uses: actions/upload-artifact@v2
