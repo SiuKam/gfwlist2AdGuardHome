@@ -1,5 +1,5 @@
 # gfwlist2AdGuardHome
-转换gfwlist到AdGuardHome规则文件，并添加Ali DNS与Dnspod DNS（使用DoH）作为默认DNS。
+转换gfwlist到AdGuardHome规则文件，并添加Ali DNS与Dnspod DNS（使用DoH）作为默认DNS。同时对同济域名（*.tongji.edu.cn）使用同济DNS（202.120.190.208），以实现校内网访问。
 
 使用Github Action定期更新文件。
 

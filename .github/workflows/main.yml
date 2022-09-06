@@ -37,7 +37,7 @@ jobs:
       # Get Time
       - name: Get current Time
         id: time
-        run: echo "::set-output name=time::$(date +'%Y-%m-%d-%H-%M')"
+        run: echo "::set-output name=time::$(date +'%Y-%m-%d')"
 
       # Create release
       - name: Create Release
